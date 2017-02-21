@@ -33,6 +33,7 @@ BuildRequires:	cmake(qt5xdg)
 BuildRequires:	cmake(Qt5Svg)
 BuildRequires:	cmake(Qt5Sql)
 BuildRequires:	cmake(Qt5Test)
+BuildRequires:	cmake(Qt5QuickTest)
 
 %description
 QtQuick and Wayland based shell for convergence
