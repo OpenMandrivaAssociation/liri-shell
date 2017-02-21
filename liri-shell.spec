@@ -39,7 +39,8 @@ BuildRequires:	qt5-qtcompositor-private-devel
 Requires:	liri-workspace
 Requires:	vibe
 Requires:	liri-wayland
-Requires:	qt5-qtquickcontrols
+Requires:	qt5-qtquickcontrols2
+Requires:	fluid
 
 %description
 QtQuick and Wayland based shell for convergence
