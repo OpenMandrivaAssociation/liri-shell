@@ -31,6 +31,7 @@ BuildRequires:	cmake(QtAccountsService)
 BuildRequires:	cmake(LiriWayland)
 BuildRequires:	cmake(qt5xdg)
 BuildRequires:	cmake(Qt5Svg)
+BuildRequires:	cmake(Qt5Sql)
 
 %description
 QtQuick and Wayland based shell for convergence
