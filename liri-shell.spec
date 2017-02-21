@@ -8,7 +8,7 @@ Version:        0.9.0
 %if "%{snapshot}" != ""
 # snapshot here
 %define tarname %{name}-%{version}-%{snapshot}
-Release:        1.%{snapshot}.1
+Release:        1.%{snapshot}.2
 Source0:        %{name}-%{version}-%{snapshot}.tar.xz
 %else
 # official release here
@@ -37,6 +37,9 @@ BuildRequires:	cmake(Qt5QuickTest)
 BuildRequires:	qt5-qtcompositor-private-devel
 
 Requires:	liri-workspace
+Requires:	vibe
+Requires:	liri-wayland
+Requires:	qt5-qtquickcontrols
 
 %description
 QtQuick and Wayland based shell for convergence
