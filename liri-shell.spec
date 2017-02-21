@@ -34,6 +34,7 @@ BuildRequires:	cmake(Qt5Svg)
 BuildRequires:	cmake(Qt5Sql)
 BuildRequires:	cmake(Qt5Test)
 BuildRequires:	cmake(Qt5QuickTest)
+BuildRequires:	qt5-qtcompositor-private-devel
 
 %description
 QtQuick and Wayland based shell for convergence
