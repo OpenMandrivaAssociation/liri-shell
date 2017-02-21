@@ -36,6 +36,8 @@ BuildRequires:	cmake(Qt5Test)
 BuildRequires:	cmake(Qt5QuickTest)
 BuildRequires:	qt5-qtcompositor-private-devel
 
+Requires:	liri-workspace
+
 %description
 QtQuick and Wayland based shell for convergence
 
