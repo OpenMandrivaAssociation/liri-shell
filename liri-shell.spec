@@ -47,7 +47,7 @@ QtQuick and Wayland based shell for convergence
 
 %prep
 %setup -qn %{tarname}
-%apply_patches
+%autopatch -p1
 
 %build
 %cmake_qt5
